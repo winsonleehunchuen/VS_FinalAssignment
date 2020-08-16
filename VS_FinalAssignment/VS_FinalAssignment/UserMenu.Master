@@ -90,8 +90,8 @@
                             <div id="navbar_menu">
                               <ul class="first-ul">
                                 <li> <a class="active" href="UserHome.aspx">Home</a> </li>
-                                <li> <a href="UserAbouts.aspx">About Us</a> </li>
-                                <li> <a href="UserSeviceTab.aspx">Service</a>
+                                <li> <a href="UserAbout.aspx">About Us</a> </li>
+                                <li> <a href="UserServiceTab.aspx">Service</a>
                                   <ul>
                                     <li><a href="UserServiceTabList.aspx">Services list</a></li>
                                     <li><a href="UserServiceTabDetail.aspx">Services Detail</a></li>
@@ -183,8 +183,8 @@
                             <div id="navbar_menu">
                               <ul class="first-ul">
                                 <li> <a class="active" href="UserHome.aspx">Home</a> </li>
-                                <li> <a href="UserAbouts.aspx">About Us</a> </li>
-                                <li> <a href="UserSeviceTab.aspx">Service</a>
+                                <li> <a href="UserAbout.aspx">About Us</a> </li>
+                                <li> <a href="UserServiceTab.aspx">Service</a>
                                   <ul>
                                     <li><a href="UserServiceTabList.aspx">Services list</a></li>
                                     <li><a href="UserServiceTabDetail.aspx">Services Detail</a></li>
@@ -402,7 +402,7 @@
                           <h2>Additional links</h2>
                         </div>
                         <ul class="footer-menu">
-                          <li><a href="UserAbouts.aspx"><i class="fa fa-angle-right"></i> About us</a></li>
+                          <li><a href="UserAbout.aspx"><i class="fa fa-angle-right"></i> About us</a></li>
                           <li><a href="UserTermCondition.aspx"><i class="fa fa-angle-right"></i> Terms and conditions</a></li>
                           <li><a href="UserPagesPrivacyPolicy.aspx"><i class="fa fa-angle-right"></i> Privacy policy</a></li>
                           <li><a href="UserBlogGridAndNews.aspx"><i class="fa fa-angle-right"></i> News</a></li>
