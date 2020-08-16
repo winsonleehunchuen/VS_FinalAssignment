@@ -13,7 +13,8 @@ namespace VS_FinalAssignment
 
         public DatabaseConnection()
         {
-            connectionString = @"Data Source=LAPTOP-OM5J60IG\SQLSERVER;Initial Catalog=FinalAssignment;Integrated Security = true";
+            connectionString = "Data Source=JIAXIAN;Initial Catalog=FinalAssignment;User ID=sa;Password=123";
+            //connectionString = @"Data Source=LAPTOP-OM5J60IG\SQLSERVER;Initial Catalog=FinalAssignment;Integrated Security = true";
         }
 
         public DatabaseConnection(string connectionString)
