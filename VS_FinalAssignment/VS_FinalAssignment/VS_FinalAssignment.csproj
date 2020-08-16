@@ -183,6 +183,33 @@
     <Content Include="revolution\js\jquery.themepunch.revolution.min.js" />
     <Content Include="revolution\js\jquery.themepunch.tools.min.js" />
     <Content Include="UserAbout.aspx" />
+    <Content Include="UserBlog.aspx" />
+    <Content Include="UserBlogDetails.aspx" />
+    <Content Include="UserBlogGridAndNews.aspx" />
+    <Content Include="UserContact1.aspx" />
+    <Content Include="UserContact2.aspx" />
+    <Content Include="UserHome.aspx" />
+    <Content Include="UserIndex.aspx" />
+    <Content Include="UserLogin.aspx" />
+    <Content Include="UserPagesCarrer.aspx" />
+    <Content Include="UserPagesError.aspx" />
+    <Content Include="UserPagesFaq.aspx" />
+    <Content Include="UserPagesPricing.aspx" />
+    <Content Include="UserPagesPrivacyPolicy.aspx" />
+    <Content Include="UserRegister.aspx" />
+    <Content Include="UserServicesComputerRepair.aspx" />
+    <Content Include="UserServicesDataRecovery.aspx" />
+    <Content Include="UserServicesMobile.aspx" />
+    <Content Include="UserServicesNetworkSolution.aspx" />
+    <Content Include="UserServicesSupport.aspx" />
+    <Content Include="UserServiceTab.aspx" />
+    <Content Include="UserServiceTabDetail.aspx" />
+    <Content Include="UserServiceTabList.aspx" />
+    <Content Include="UserShop.aspx" />
+    <Content Include="UserShopCart.aspx" />
+    <Content Include="UserShopCheckout.aspx" />
+    <Content Include="UserShopDetail.aspx" />
+    <Content Include="UserTermCondition.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -195,12 +222,201 @@
     <Compile Include="UserAbout.aspx.designer.cs">
       <DependentUpon>UserAbout.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UserBlog.aspx.cs">
+      <DependentUpon>UserBlog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserBlog.aspx.designer.cs">
+      <DependentUpon>UserBlog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserBlogDetails.aspx.cs">
+      <DependentUpon>UserBlogDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserBlogDetails.aspx.designer.cs">
+      <DependentUpon>UserBlogDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserBlogGridAndNews.aspx.cs">
+      <DependentUpon>UserBlogGridAndNews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserBlogGridAndNews.aspx.designer.cs">
+      <DependentUpon>UserBlogGridAndNews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserContact1.aspx.cs">
+      <DependentUpon>UserContact1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserContact1.aspx.designer.cs">
+      <DependentUpon>UserContact1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserContact2.aspx.cs">
+      <DependentUpon>UserContact2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserContact2.aspx.designer.cs">
+      <DependentUpon>UserContact2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome.aspx.cs">
+      <DependentUpon>UserHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome.aspx.designer.cs">
+      <DependentUpon>UserHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserIndex.aspx.cs">
+      <DependentUpon>UserIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserIndex.aspx.designer.cs">
+      <DependentUpon>UserIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.aspx.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserLogin.aspx.designer.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserMenu.Master.cs">
       <DependentUpon>UserMenu.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UserMenu.Master.designer.cs">
       <DependentUpon>UserMenu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserPagesCarrer.aspx.cs">
+      <DependentUpon>UserPagesCarrer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPagesCarrer.aspx.designer.cs">
+      <DependentUpon>UserPagesCarrer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPagesError.aspx.cs">
+      <DependentUpon>UserPagesError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPagesError.aspx.designer.cs">
+      <DependentUpon>UserPagesError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPagesFaq.aspx.cs">
+      <DependentUpon>UserPagesFaq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPagesFaq.aspx.designer.cs">
+      <DependentUpon>UserPagesFaq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPagesPricing.aspx.cs">
+      <DependentUpon>UserPagesPricing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPagesPricing.aspx.designer.cs">
+      <DependentUpon>UserPagesPricing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPagesPrivacyPolicy.aspx.cs">
+      <DependentUpon>UserPagesPrivacyPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPagesPrivacyPolicy.aspx.designer.cs">
+      <DependentUpon>UserPagesPrivacyPolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserRegister.aspx.cs">
+      <DependentUpon>UserRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserRegister.aspx.designer.cs">
+      <DependentUpon>UserRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserServicesComputerRepair.aspx.cs">
+      <DependentUpon>UserServicesComputerRepair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserServicesComputerRepair.aspx.designer.cs">
+      <DependentUpon>UserServicesComputerRepair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserServicesDataRecovery.aspx.cs">
+      <DependentUpon>UserServicesDataRecovery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserServicesDataRecovery.aspx.designer.cs">
+      <DependentUpon>UserServicesDataRecovery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserServicesMobile.aspx.cs">
+      <DependentUpon>UserServicesMobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserServicesMobile.aspx.designer.cs">
+      <DependentUpon>UserServicesMobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserServicesNetworkSolution.aspx.cs">
+      <DependentUpon>UserServicesNetworkSolution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserServicesNetworkSolution.aspx.designer.cs">
+      <DependentUpon>UserServicesNetworkSolution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserServicesSupport.aspx.cs">
+      <DependentUpon>UserServicesSupport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserServicesSupport.aspx.designer.cs">
+      <DependentUpon>UserServicesSupport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserServiceTab.aspx.cs">
+      <DependentUpon>UserServiceTab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserServiceTab.aspx.designer.cs">
+      <DependentUpon>UserServiceTab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserServiceTabDetail.aspx.cs">
+      <DependentUpon>UserServiceTabDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserServiceTabDetail.aspx.designer.cs">
+      <DependentUpon>UserServiceTabDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserServiceTabList.aspx.cs">
+      <DependentUpon>UserServiceTabList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserServiceTabList.aspx.designer.cs">
+      <DependentUpon>UserServiceTabList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserShop.aspx.cs">
+      <DependentUpon>UserShop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserShop.aspx.designer.cs">
+      <DependentUpon>UserShop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserShopCart.aspx.cs">
+      <DependentUpon>UserShopCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserShopCart.aspx.designer.cs">
+      <DependentUpon>UserShopCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserShopCheckout.aspx.cs">
+      <DependentUpon>UserShopCheckout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserShopCheckout.aspx.designer.cs">
+      <DependentUpon>UserShopCheckout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserShopDetail.aspx.cs">
+      <DependentUpon>UserShopDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserShopDetail.aspx.designer.cs">
+      <DependentUpon>UserShopDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserTermCondition.aspx.cs">
+      <DependentUpon>UserTermCondition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserTermCondition.aspx.designer.cs">
+      <DependentUpon>UserTermCondition.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
