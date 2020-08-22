@@ -11,7 +11,10 @@ namespace VS_FinalAssignment
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["userN"] == null)
+            {
+                Response.Redirect("UserLogin.aspx");
+            }
         }
     }
 }

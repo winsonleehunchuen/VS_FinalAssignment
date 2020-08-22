@@ -189,7 +189,6 @@
     <Content Include="UserContact1.aspx" />
     <Content Include="UserContact2.aspx" />
     <Content Include="UserHome.aspx" />
-    <Content Include="UserIndex.aspx" />
     <Content Include="UserLogin.aspx" />
     <Content Include="UserPagesCarrer.aspx" />
     <Content Include="UserPagesError.aspx" />
@@ -263,13 +262,6 @@
     </Compile>
     <Compile Include="UserHome.aspx.designer.cs">
       <DependentUpon>UserHome.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="UserIndex.aspx.cs">
-      <DependentUpon>UserIndex.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UserIndex.aspx.designer.cs">
-      <DependentUpon>UserIndex.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserLogin.aspx.cs">
       <DependentUpon>UserLogin.aspx</DependentUpon>

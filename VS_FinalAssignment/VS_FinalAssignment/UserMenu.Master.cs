@@ -15,10 +15,6 @@ namespace VS_FinalAssignment
             {
                 username.InnerText = (string)Session["userN"];
             }
-            /*if (Session["userN"] == null)
-            {
-                Response.Redirect("Login.aspx");
-            }*/
         }
 
         protected void LinkButton1_Click(object sender, EventArgs e)
