@@ -68,6 +68,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminCharts.aspx" />
+    <Content Include="adminCss\css\bootstrap-table.css" />
+    <Content Include="adminCss\css\bootstrap-theme.css" />
+    <Content Include="adminCss\css\bootstrap-theme.min.css" />
+    <Content Include="adminCss\css\bootstrap.css" />
+    <Content Include="adminCss\css\bootstrap.min.css" />
+    <Content Include="adminCss\css\datepicker.css" />
+    <Content Include="adminCss\css\datepicker3.css" />
+    <Content Include="adminCss\css\font-awesome.min.css" />
+    <Content Include="adminCss\css\styles.css" />
+    <Content Include="adminCss\fonts\fontawesome-webfont.svg" />
+    <Content Include="adminCss\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="adminCss\js\bootstrap-datepicker.js" />
+    <Content Include="adminCss\js\bootstrap.js" />
+    <Content Include="adminCss\js\bootstrap.min.js" />
+    <Content Include="adminCss\js\chart-data.js" />
+    <Content Include="adminCss\js\chart.min.js" />
+    <Content Include="adminCss\js\custom.js" />
+    <Content Include="adminCss\js\easypiechart-data.js" />
+    <Content Include="adminCss\js\easypiechart.js" />
+    <Content Include="adminCss\js\html5shiv.min.js" />
+    <Content Include="adminCss\js\jquery-1.11.1.min.js" />
+    <Content Include="adminCss\js\lumino.glyphs.js" />
+    <Content Include="adminCss\js\npm.js" />
+    <Content Include="adminCss\js\respond.min.js" />
+    <Content Include="adminElements.aspx" />
+    <Content Include="adminIndex.aspx" />
+    <Content Include="adminPanels.aspx" />
+    <Content Include="adminWidgets.aspx" />
     <Content Include="contact.php" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap-grid.css" />
@@ -212,6 +241,48 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminCharts.aspx.cs">
+      <DependentUpon>adminCharts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminCharts.aspx.designer.cs">
+      <DependentUpon>adminCharts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminElements.aspx.cs">
+      <DependentUpon>adminElements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminElements.aspx.designer.cs">
+      <DependentUpon>adminElements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminIndex.aspx.cs">
+      <DependentUpon>adminIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminIndex.aspx.designer.cs">
+      <DependentUpon>adminIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMenu.Master.cs">
+      <DependentUpon>AdminMenu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMenu.Master.designer.cs">
+      <DependentUpon>AdminMenu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="adminPanels.aspx.cs">
+      <DependentUpon>adminPanels.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminPanels.aspx.designer.cs">
+      <DependentUpon>adminPanels.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminWidgets.aspx.cs">
+      <DependentUpon>adminWidgets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminWidgets.aspx.designer.cs">
+      <DependentUpon>adminWidgets.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseConnection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserAbout.aspx.cs">
@@ -417,6 +488,24 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="adminCss\css\bootstrap-theme.css.map" />
+    <Content Include="adminCss\css\bootstrap-theme.min.css.map" />
+    <Content Include="adminCss\css\bootstrap.css.map" />
+    <Content Include="adminCss\css\bootstrap.min.css.map" />
+    <Content Include="adminCss\fonts\fontawesome-webfont.eot" />
+    <Content Include="adminCss\fonts\fontawesome-webfont.ttf" />
+    <Content Include="adminCss\fonts\fontawesome-webfont.woff" />
+    <Content Include="adminCss\fonts\fontawesome-webfont.woff2" />
+    <Content Include="adminCss\fonts\FontAwesome.otf" />
+    <Content Include="adminCss\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="adminCss\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="adminCss\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="adminCss\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="adminCss\sass\.sass-cache\deff34d1f5b7167181b556002c25068d6adc024d\styles.scssc" />
+    <Content Include="adminCss\sass\styles.scss" />
+    <Content Include="adminCss\tables\data1.json" />
+    <Content Include="adminCss\tables\data2.json" />
+    <Content Include="AdminMenu.Master" />
     <None Include="packages.config" />
     <Content Include="revolution\fonts\revicons\revicons.eot" />
     <Content Include="revolution\fonts\revicons\revicons.ttf" />
