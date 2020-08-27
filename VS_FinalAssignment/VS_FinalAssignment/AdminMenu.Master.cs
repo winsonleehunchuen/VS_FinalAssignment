@@ -11,7 +11,20 @@ namespace VS_FinalAssignment
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["adminN"] != null)
+            {
+                adminname.InnerText = (string)Session["adminN"];
+            }
+            if (Session["adminN"] == null)
+            {
+                Response.Redirect("UserLogin.aspx");
+            }
+        }
 
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Response.Redirect("UserHome.aspx");
         }
     }
 }

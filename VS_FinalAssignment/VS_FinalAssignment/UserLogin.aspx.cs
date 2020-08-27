@@ -26,7 +26,7 @@ namespace VS_FinalAssignment
             {
                 if (dt.Rows[0]["user_type"].ToString() == "admin")
                 {
-                    Response.Write("<script>alert('Login Successfully!');window.location = 'Admin.aspx';</script>");
+                    Response.Write("<script>alert('Login Successfully!');window.location = 'adminIndex.aspx';</script>");
                     Session["adminN"] = username;
                 }
                 else

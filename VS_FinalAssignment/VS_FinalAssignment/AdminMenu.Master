@@ -9,6 +9,7 @@
 	<link href="adminCss/css/font-awesome.min.css" rel="stylesheet">
 	<link href="adminCss/css/datepicker3.css" rel="stylesheet">
 	<link href="adminCss/css/styles.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="https://www.drupal.org/favicon.ico" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -98,7 +99,7 @@
 				<img src="http://placehold.it/50/30a5ff/fff" class="img-responsive" alt="">
 			</div>
 			<div class="profile-usertitle">
-				<div class="profile-usertitle-name">Username</div>
+				<span class="profile-usertitle-name" id="adminname" runat="server"></span>
 				<div class="profile-usertitle-status"><span class="indicator label-success"></span>Online</div>
 			</div>
 			<div class="clear"></div>
@@ -130,7 +131,7 @@
 					</a></li>
 				</ul>
 			</li>
-			<li><a href="login.html"><em class="fa fa-power-off">&nbsp;</em> Logout</a></li>
+            <li><asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><em class="fa fa-power-off">&nbsp;</em>Logout</asp:LinkButton></li>
 		</ul>
 	</div><!--/.sidebar-->
         <div>
