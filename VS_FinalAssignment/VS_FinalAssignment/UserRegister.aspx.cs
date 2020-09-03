@@ -20,11 +20,11 @@ namespace VS_FinalAssignment
         {
             if (fullNameTxt.Text.Equals("") || EmailTxt.Text.Equals("") || UsernameTxt.Text.Equals("") || PasswordTxt.Text.Equals("") || ConfrimPasswordTxt.Text.Equals(""))
             {
-                Response.Write("<script>alert('Sorry... Please insert again!')</script>");
+                Response.Write("<script>alert('Sorry... please fill out your information!')</script>");
             }
             else if (PasswordTxt.Text != ConfrimPasswordTxt.Text)
             {
-                Response.Write("<script>alert('Sorry... the password not Same!')</script>");
+                Response.Write("<script>alert('Sorry... the password not same!')</script>");
             }
             else
             {
@@ -32,16 +32,16 @@ namespace VS_FinalAssignment
 
                 if (dt.Rows.Count > 0)
                 {
-                    Response.Write("<script>alert('Sorry... username is already taken!')</script>");
+                    Response.Write("<script>alert('Sorry... username is already taken!')</script>");    
                 }
                 else
                 {
                     try
                     {
-                        string query = "insert into users(fullname, email, username, password, user_type) values ('" + fullNameTxt.Text + "','" + EmailTxt.Text + "','" + UsernameTxt.Text + "','" + PasswordTxt.Text + "','user');";
+                        string query = "insert into users(fullname, email, username, password, user_type, created_at) values ('" + fullNameTxt.Text + "','" + EmailTxt.Text + "','" + UsernameTxt.Text + "','" + PasswordTxt.Text + "','user','" + DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss") + "');";
                         dbcon.executeSQL(query);
                         Session["userN"] = UsernameTxt.Text;
-                        Response.Write("<script>alert('Register Successfully!');window.location = 'UserShop.aspx';</script>");
+                        Response.Write("<script>alert('Register Successfully.');window.location = 'UserShop.aspx';</script>");
                     }
                     catch (Exception ex)
                     {

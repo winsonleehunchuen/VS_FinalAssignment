@@ -26,13 +26,13 @@ namespace VS_FinalAssignment
             {
                 if (dt.Rows[0]["user_type"].ToString() == "admin")
                 {
-                    Response.Write("<script>alert('Login Successfully!');window.location = 'adminIndex.aspx';</script>");
+                    Response.Write("<script>alert('Login Successfully.');window.location = 'adminViewProduct.aspx';</script>");
                     Session["adminN"] = username;
                 }
                 else
                 {
                     Session["userN"] = username;
-                    Response.Write("<script>alert('Login Successfully!');window.location = 'UserShop.aspx';</script>");
+                    Response.Write("<script>alert('Login Successfully.');window.location = 'UserShop.aspx';</script>");
                 }
             }
             else

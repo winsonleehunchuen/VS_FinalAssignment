@@ -68,6 +68,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminAddProduct.aspx" />
     <Content Include="adminCharts.aspx" />
     <Content Include="adminCss\css\bootstrap-table.css" />
     <Content Include="adminCss\css\bootstrap-theme.css" />
@@ -94,8 +95,8 @@
     <Content Include="adminCss\js\npm.js" />
     <Content Include="adminCss\js\respond.min.js" />
     <Content Include="adminElements.aspx" />
-    <Content Include="adminIndex.aspx" />
     <Content Include="adminPanels.aspx" />
+    <Content Include="adminViewProduct.aspx" />
     <Content Include="adminWidgets.aspx" />
     <Content Include="contact.php" />
     <Content Include="css\animate.css" />
@@ -241,6 +242,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminAddProduct.aspx.cs">
+      <DependentUpon>adminAddProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminAddProduct.aspx.designer.cs">
+      <DependentUpon>adminAddProduct.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminCharts.aspx.cs">
       <DependentUpon>adminCharts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -255,13 +263,6 @@
     <Compile Include="adminElements.aspx.designer.cs">
       <DependentUpon>adminElements.aspx</DependentUpon>
     </Compile>
-    <Compile Include="adminIndex.aspx.cs">
-      <DependentUpon>adminIndex.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="adminIndex.aspx.designer.cs">
-      <DependentUpon>adminIndex.aspx</DependentUpon>
-    </Compile>
     <Compile Include="AdminMenu.Master.cs">
       <DependentUpon>AdminMenu.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -275,6 +276,13 @@
     </Compile>
     <Compile Include="adminPanels.aspx.designer.cs">
       <DependentUpon>adminPanels.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminViewProduct.aspx.cs">
+      <DependentUpon>adminViewProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminViewProduct.aspx.designer.cs">
+      <DependentUpon>adminViewProduct.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminWidgets.aspx.cs">
       <DependentUpon>adminWidgets.aspx</DependentUpon>
@@ -517,6 +525,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="upload\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
