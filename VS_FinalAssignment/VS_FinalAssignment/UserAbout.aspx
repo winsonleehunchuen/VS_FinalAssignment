@@ -85,7 +85,7 @@
                       <div class="service_blog_inner2">
                         <div class="icon text_align_left"><i class="fa fa-cog"></i></div>
                         <h4 class="service-heading">Secure payments</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore mque.</p>
+                        <p>When industries are taken without payment to the property owner, it has a certain legal term.</p>
                       </div>
                     </div>
                   </div>
@@ -94,7 +94,7 @@
                       <div class="service_blog_inner2">
                         <div class="icon text_align_left"><i class="fa fa-history"></i></div>
                         <h4 class="service-heading">Expert team</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore mque.</p>
+                        <p>Great importance has always been attached by Japanese experts to the patina of metal used for artistic chiselling.</p>
                       </div>
                     </div>
                   </div>
@@ -103,7 +103,7 @@
                       <div class="service_blog_inner2">
                         <div class="icon text_align_left"><i class="fa fa-heart-o"></i></div>
                         <h4 class="service-heading">Affordable services</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium dolore mque.</p>
+                        <p>Advances in microchip technology have made these cameras smaller and cheaper and affordable to the mass market.</p>
                       </div>
                     </div>
                   </div>

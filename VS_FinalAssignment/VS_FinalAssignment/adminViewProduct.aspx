@@ -46,7 +46,6 @@
 							<fieldset>
 								<div class="text-center">
                                 <asp:Panel ID="Panel1" runat="server"></asp:Panel>
-                                    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="a">LinkButton</asp:LinkButton>
 								</div>
 							</fieldset>
 						</form>

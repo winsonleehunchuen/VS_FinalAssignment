@@ -55,14 +55,14 @@ namespace VS_FinalAssignment
                 bindGridView();
             
         }*/
-        protected void a(object sender, EventArgs e)
+        /*protected void a(object sender, EventArgs e)
         {
             var id = Request.Form["id"];
 
             string query = "delete from product where id=@id";
             dbcon.executeSQL(query);
             Response.Redirect("adminViewProduct.aspx");
-        }
+        }*/
 
         /*public void Delete()
         {
