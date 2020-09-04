@@ -33,9 +33,13 @@ namespace VS_FinalAssignment
                     try
                     {
                         FileUpload1.SaveAs(Server.MapPath("upload/") + filename);
-                        string query = "insert into product(name, price, description, image, created_at) values ('" + name.Text + "','" + price.Text + "','" + description.InnerText + "','" + filename + "','" + DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss") + "');";
+                        string query = "insert into product(name, price, description, image, created_at) values ('" + name.Text + "','" + price.Text + "','" + description.InnerText + "','" + filename + "','" + DateTime.Now.ToString("dd/MM/yyyy hh:mm tt") + "');";
                         dbcon.executeSQL(query);
                         Response.Write("<script>alert('New Product has been added successfully.')</script>");
+
+                        name.Text = "";
+                        price.Text = "";
+                        description.InnerText = "";
                     }
                     catch (Exception ex)
                     {
@@ -51,37 +55,6 @@ namespace VS_FinalAssignment
         }
     }
 }
-
-
-/*string filename = Path.GetFileName(FileUpload1.FileName);
-
-            if (name.Text.Equals("") || price.Text.Equals("") || description.InnerText.Equals(""))
-            {
-                Response.Write("<script>alert('Sorry... Please insert again!')</script>");
-            }
-            else
-            {  
-
-                if (FileUpload1.HasFile)
-                {
-                    try
-                    {
-                        FileUpload1.SaveAs(Server.MapPath("upload/") + filename);
-                        string query = "insert into product(name, price, description, image, created_at) values ('" + name.Text + "','" + price.Text + "','" + description.InnerText + "','" + filename + "','" + DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss") + "');";
-dbcon.executeSQL(query);
-                        Response.Write("<script language='javascript'>window.alert('Profile image updated successfully.');window.location='User_Profile_Image.aspx';</script>");
-                    }
-                    catch (Exception ex)
-                    {
-                        Response.Write("<script>alert('" + ex.ToString() + "')</script>");
-                    }
-                }
-                else
-                {
-                    Response.Write("<script>alert('Oops...you have not uploaded any product image yet.')</script>");
-                }
-
-            }*/
 
 /*protected void Add_product_Click(object sender, EventArgs e)
 {

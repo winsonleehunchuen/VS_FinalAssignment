@@ -123,6 +123,8 @@
     <Content Include="css\responsive.css" />
     <Content Include="css\style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="images\delete.png" />
+    <Content Include="images\edit.png" />
     <Content Include="images\fevicon\fevicon.ico" />
     <Content Include="images\fevicon\fevicon.png" />
     <Content Include="images\gradian_black.png" />
@@ -255,6 +257,9 @@
     </Compile>
     <Compile Include="adminCharts.aspx.designer.cs">
       <DependentUpon>adminCharts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminDeleteProduct.cs">
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="adminElements.aspx.cs">
       <DependentUpon>adminElements.aspx</DependentUpon>

@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMenu.Master" AutoEventWireup="true" CodeBehind="adminViewProduct.aspx.cs" Inherits="VS_FinalAssignment.adminViewProduct" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-         <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">    
+	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="adminViewProduct.aspx">
@@ -44,17 +44,14 @@
 					<div class="panel-body">
 						<form class="form-horizontal" action="" method="post">
 							<fieldset>
-
-								
-								
-								
+								<div class="text-center">
+                                <asp:Panel ID="Panel1" runat="server"></asp:Panel>
+                                    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="a">LinkButton</asp:LinkButton>
+								</div>
 							</fieldset>
 						</form>
 					</div>
 				</div>
-			
-			
-
 	</div>	<!--/.main-->
 	
 </asp:Content>

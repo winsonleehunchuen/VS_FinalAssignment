@@ -15,10 +15,10 @@ namespace VS_FinalAssignment
             {
                 adminname.InnerText = (string)Session["adminN"];
             }
-            if (Session["adminN"] == null)
+            /*if (Session["adminN"] == null)
             {
                 Response.Redirect("UserLogin.aspx");
-            }
+            }*/
         }
 
         protected void LinkButton1_Click(object sender, EventArgs e)
