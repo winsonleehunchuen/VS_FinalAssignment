@@ -8,10 +8,10 @@
         <div class="full">
           <div class="title-holder">
             <div class="title-holder-cell text-left">
-              <h1 class="page-title">Contact</h1>
+              <h1 class="page-title">Contact Us</h1>
               <ol class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Contact</li>
+                <li><a href="UserHome.aspx">Home</a></li>
+                <li class="active">Contact Us</li>
               </ol>
             </div>
           </div>
@@ -38,8 +38,8 @@
                 <div class="information_bottom text_align_center">
                   <div class="icon_bottom"> <i class="fa fa-road" aria-hidden="true"></i> </div>
                   <div class="info_cont">
-                    <h4>Lorem Ipsum is simply dummy text..</h4>
-                    <p>Melbourne Australia</p>
+                    <h4>Kuala Lumpur City Centre, Kuala Lumpur, Federal Territory of Kuala Lumpur</h4>
+                    <p>Malaysia</p>
                   </div>
                 </div>
               </div>
@@ -47,8 +47,8 @@
                 <div class="information_bottom text_align_center">
                   <div class="icon_bottom"> <i class="fa fa-user" aria-hidden="true"></i> </div>
                   <div class="info_cont">
-                    <h4>0011 234 56789</h4>
-                    <p>Mon-Fri 8:30am-6:30pm</p>
+                    <h4>+60123456789</h4>
+                    <p>Mon-Fri 9:00am-6:00pm</p>
                   </div>
                 </div>
               </div>
@@ -56,34 +56,31 @@
                 <div class="information_bottom text_align_center">
                   <div class="icon_bottom"> <i class="fa fa-envelope" aria-hidden="true"></i> </div>
                   <div class="info_cont">
-                    <h4>Example@gmail.com</h4>
-                    <p>24/7 online support</p>
+                    <h4>itnext@gmail.com</h4>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contant_form">
-              <h2 class="text_align_center">SEND MESSAGER</h2>
+              <h2 class="text_align_center">Contact Us</h2>
               <div class="form_section">
                 <form class="form_contant" action="index.html">
                   <fieldset>
                   <div class="row">
+                       
                     <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <input class="field_custom" placeholder="Websire URL" type="text">
+                        <asp:TextBox ID="fullnametxt" runat="server" CssClass="field_custom" placeholder="Full Name" type="text"></asp:TextBox>
                     </div>
                     <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <input class="field_custom" placeholder="Your name" type="text">
-                    </div>
-                    <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <input class="field_custom" placeholder="Email adress" type="email">
-                    </div>
-                    <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <input class="field_custom" placeholder="Phone number" type="text">
+                       <asp:TextBox ID="emailtxt" runat="server" CssClass="field_custom" placeholder="Email address" type="email"></asp:TextBox>
                     </div>
                     <div class="field col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <textarea class="field_custom" placeholder="Messager"></textarea>
+                        
+                        <textarea id="msgtxt" runat="server" class="field_custom" placeholder="Feedback" type="text"></textarea>
                     </div>
-                    <div class="center"><a class="btn main_bt" href="#">SUBMIT NOW</a></div>
+                    <div class="center">
+                        <asp:LinkButton ID="LinkButton1" runat="server" class="btn main_bt" OnClick="LinkButton1_Click">SUBMIT NOW</asp:LinkButton> 
+                    </div>
                   </div>
                   </fieldset>
                 </form>

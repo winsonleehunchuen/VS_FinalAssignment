@@ -39,10 +39,10 @@
                   <fieldset class="row">
                   <center>
                   <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <asp:TextBox ID="usernameTxt" class="field_custom" runat="server" placeholder="Username*" type="text" required></asp:TextBox>
+                    <asp:TextBox ID="usernameTxt" class="field_custom" runat="server" placeholder="Username*" type="text"></asp:TextBox>
                   </div>
                   <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <asp:TextBox ID="passwordTxt" class="field_custom" runat="server" placeholder="Password*" type="password" required></asp:TextBox>
+                    <asp:TextBox ID="passwordTxt" class="field_custom" runat="server" placeholder="Password*" type="password"></asp:TextBox>
                   </div>
                   </center>
                   <div class="center">
