@@ -24,7 +24,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span></button>
-							<a class="navbar-brand" href="#"><span>Lumino</span>Admin</a>
+							<a class="navbar-brand" href="#"><span>it.next</span>Admin</a>
 			</div>
 		</div><!-- /.container-fluid -->
 	</nav>
@@ -42,7 +42,7 @@
 		<div class="divider"></div>
 		<ul class="nav menu">
 			<li class="parent "><a data-toggle="collapse" href="#sub-item-1">
-				<em class="fa fa-navicon">&nbsp;</em> Manage Product <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
+				<em class="fa fa-product-hunt">&nbsp;</em> Manage Product <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
 				</a>
 				<ul class="children collapse" id="sub-item-1">
 					<li><a class="" href="adminViewProduct.aspx">
@@ -53,25 +53,9 @@
 					</a></li>
 				</ul>
 			</li>
-			<li><a href="adminWidgets.aspx"><em class="fa fa-calendar">&nbsp;</em> Widgets</a></li>
-			<li><a href="adminCharts.aspx"><em class="fa fa-bar-chart">&nbsp;</em> Charts</a></li>
-			<li><a href="adminElements.aspx"><em class="fa fa-toggle-off">&nbsp;</em> UI Elements</a></li>
-			<li><a href="adminPanels.aspx"><em class="fa fa-clone">&nbsp;</em> Alerts &amp; Panels</a></li>
-			<li class="parent "><a data-toggle="collapse" href="#sub-item-2">
-				<em class="fa fa-navicon">&nbsp;</em> Multilevel <span data-toggle="collapse" href="#sub-item-2" class="icon pull-right"><em class="fa fa-plus"></em></span>
-				</a>
-				<ul class="children collapse" id="sub-item-2">
-					<li><a class="" href="#">
-						<span class="fa fa-arrow-right">&nbsp;</span> Sub Item 1
-					</a></li>
-					<li><a class="" href="#">
-						<span class="fa fa-arrow-right">&nbsp;</span> Sub Item 2
-					</a></li>
-					<li><a class="" href="#">
-						<span class="fa fa-arrow-right">&nbsp;</span> Sub Item 3
-					</a></li>
-				</ul>
-			</li>
+			<li><a href="adminCharts.aspx"><em class="fa fa-shopping-basket">&nbsp;</em>Manage Sales Order</a></li>
+			<li><a href="adminWidgets.aspx"><em class="fa fa-users">&nbsp;</em>Manage Customer</a></li>
+			<li><a href="adminElements.aspx"><em class="fa fa-envelope-open">&nbsp;</em>Manage Feedback</a></li>
             <li><asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><em class="fa fa-power-off">&nbsp;</em>Logout</asp:LinkButton></li>
 		</ul>
 	</div><!--/.sidebar-->
@@ -83,7 +67,7 @@
 				<div class="col-md-3">      
 				</div>      
 				<div class="col-md-8"> 
-					<p class="back-link">Lumino Theme by <a href="https://www.medialoot.com">Medialoot</a></p> 
+					<p class="back-link">ItNext © Copyrights 2019 Design by html.design</p> 
 				</div>        
 				<div class="col-md-3">      
 				</div>    

@@ -94,6 +94,8 @@
     <Content Include="adminCss\js\lumino.glyphs.js" />
     <Content Include="adminCss\js\npm.js" />
     <Content Include="adminCss\js\respond.min.js" />
+    <Content Include="adminDeleteProduct.aspx" />
+    <Content Include="adminEditProduct.aspx" />
     <Content Include="adminElements.aspx" />
     <Content Include="adminPanels.aspx" />
     <Content Include="adminViewProduct.aspx" />
@@ -258,8 +260,19 @@
     <Compile Include="adminCharts.aspx.designer.cs">
       <DependentUpon>adminCharts.aspx</DependentUpon>
     </Compile>
-    <Compile Include="adminDeleteProduct.cs">
+    <Compile Include="adminDeleteProduct.aspx.cs">
+      <DependentUpon>adminDeleteProduct.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminDeleteProduct.aspx.designer.cs">
+      <DependentUpon>adminDeleteProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminEditProduct.aspx.cs">
+      <DependentUpon>adminEditProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminEditProduct.aspx.designer.cs">
+      <DependentUpon>adminEditProduct.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminElements.aspx.cs">
       <DependentUpon>adminElements.aspx</DependentUpon>
