@@ -1,6 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserMenu.Master" AutoEventWireup="true" CodeBehind="UserContact2.aspx.cs" Inherits="VS_FinalAssignment.UserContact2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserMenu.Master" AutoEventWireup="true" CodeBehind="UserContact.aspx.cs" Inherits="VS_FinalAssignment.UserContact" %>
+
 <asp:Content ID="Content3" ContentPlaceHolderID="Content" runat="server">
-<!-- inner page banner -->
+    <!-- inner page banner -->
 <div id="inner_banner" class="section inner_banner_section">
   <div class="container">
     <div class="row">

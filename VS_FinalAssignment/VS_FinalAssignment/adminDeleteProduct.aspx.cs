@@ -27,7 +27,6 @@ namespace VS_FinalAssignment
             {
                 Response.Redirect("adminViewProduct.aspx");
             }
-            
         }
     }
 }

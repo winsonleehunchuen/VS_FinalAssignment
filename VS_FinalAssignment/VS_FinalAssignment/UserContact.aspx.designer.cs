@@ -11,7 +11,7 @@ namespace VS_FinalAssignment
 {
 
 
-    public partial class UserContact2
+    public partial class UserContact
     {
 
         /// <summary>

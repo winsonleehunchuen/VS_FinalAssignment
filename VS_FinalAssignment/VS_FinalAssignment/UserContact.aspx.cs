@@ -8,7 +8,7 @@ using System.Data;
 
 namespace VS_FinalAssignment
 {
-    public partial class UserContact2 : System.Web.UI.Page
+    public partial class UserContact : System.Web.UI.Page
     {
         DatabaseConnection dbcon;
         protected void Page_Load(object sender, EventArgs e)
@@ -24,17 +24,17 @@ namespace VS_FinalAssignment
             }
             else
             {
-                    try
-                    {
-                        string query = "insert into feedback(fullname, email, message) values ('" + fullnametxt.Text + "','" + emailtxt.Text + "','" + msgtxt.InnerText + "');";
-                        dbcon.executeSQL(query);
-                        Response.Write("<script>alert('Thank you for your valuable feedback.');window.location = 'UserHome.aspx';</script>");
-                    }
-                    catch (Exception ex)
-                    {
-                        Response.Write(ex.ToString());
-                    }
-                
+                try
+                {
+                    string query = "insert into feedback(fullname, email, message) values ('" + fullnametxt.Text + "','" + emailtxt.Text + "','" + msgtxt.InnerText + "');";
+                    dbcon.executeSQL(query);
+                    Response.Write("<script>alert('Thank you for your valuable feedback.');window.location = 'UserHome.aspx';</script>");
+                }
+                catch (Exception ex)
+                {
+                    Response.Write(ex.ToString());
+                }
+
             }
         }
     }

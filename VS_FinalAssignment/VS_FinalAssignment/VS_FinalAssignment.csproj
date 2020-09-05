@@ -216,7 +216,7 @@
     <Content Include="revolution\js\jquery.themepunch.revolution.min.js" />
     <Content Include="revolution\js\jquery.themepunch.tools.min.js" />
     <Content Include="UserAbout.aspx" />
-    <Content Include="UserContact2.aspx" />
+    <Content Include="UserContact.aspx" />
     <Content Include="UserHome.aspx" />
     <Content Include="UserLogin.aspx" />
     <Content Include="UserPagesError.aspx" />
@@ -293,12 +293,12 @@
     <Compile Include="UserAbout.aspx.designer.cs">
       <DependentUpon>UserAbout.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UserContact2.aspx.cs">
-      <DependentUpon>UserContact2.aspx</DependentUpon>
+    <Compile Include="UserContact.aspx.cs">
+      <DependentUpon>UserContact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserContact2.aspx.designer.cs">
-      <DependentUpon>UserContact2.aspx</DependentUpon>
+    <Compile Include="UserContact.aspx.designer.cs">
+      <DependentUpon>UserContact.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserHome.aspx.cs">
       <DependentUpon>UserHome.aspx</DependentUpon>
