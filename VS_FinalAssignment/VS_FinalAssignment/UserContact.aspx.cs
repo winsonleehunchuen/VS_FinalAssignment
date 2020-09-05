@@ -26,7 +26,7 @@ namespace VS_FinalAssignment
             {
                 try
                 {
-                    string query = "insert into feedback(fullname, email, message) values ('" + fullnametxt.Text + "','" + emailtxt.Text + "','" + msgtxt.InnerText + "');";
+                    string query = "insert into feedback(fullname, email, message, created_at) values ('" + fullnametxt.Text + "','" + emailtxt.Text + "','" + msgtxt.InnerText + "','" + DateTime.Now.ToString("dd/MM/yyyy hh:mm tt") + "');";
                     dbcon.executeSQL(query);
                     Response.Write("<script>alert('Thank you for your valuable feedback.');window.location = 'UserHome.aspx';</script>");
                 }

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace VS_FinalAssignment
 {
-    public partial class adminElements : System.Web.UI.Page
+    public partial class adminViewSalesOrder : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

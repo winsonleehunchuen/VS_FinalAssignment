@@ -11,7 +11,7 @@ namespace VS_FinalAssignment
 {
 
 
-    public partial class adminElements
+    public partial class adminDeleteFeedback
     {
     }
 }

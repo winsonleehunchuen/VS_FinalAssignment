@@ -69,7 +69,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="adminAddProduct.aspx" />
-    <Content Include="adminCharts.aspx" />
     <Content Include="adminCss\css\bootstrap-table.css" />
     <Content Include="adminCss\css\bootstrap-theme.css" />
     <Content Include="adminCss\css\bootstrap-theme.min.css" />
@@ -94,11 +93,15 @@
     <Content Include="adminCss\js\lumino.glyphs.js" />
     <Content Include="adminCss\js\npm.js" />
     <Content Include="adminCss\js\respond.min.js" />
+    <Content Include="adminDeleteFeedback.aspx" />
     <Content Include="adminDeleteProduct.aspx" />
+    <Content Include="adminDeleteUser.aspx" />
     <Content Include="adminEditProduct.aspx" />
-    <Content Include="adminElements.aspx" />
+    <Content Include="adminEditUser.aspx" />
+    <Content Include="adminViewFeedback.aspx" />
     <Content Include="adminViewProduct.aspx" />
-    <Content Include="adminWidgets.aspx" />
+    <Content Include="adminViewSalesOrder.aspx" />
+    <Content Include="adminViewUser.aspx" />
     <Content Include="contact.php" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap-grid.css" />
@@ -235,12 +238,12 @@
     <Compile Include="adminAddProduct.aspx.designer.cs">
       <DependentUpon>adminAddProduct.aspx</DependentUpon>
     </Compile>
-    <Compile Include="adminCharts.aspx.cs">
-      <DependentUpon>adminCharts.aspx</DependentUpon>
+    <Compile Include="adminDeleteFeedback.aspx.cs">
+      <DependentUpon>adminDeleteFeedback.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="adminCharts.aspx.designer.cs">
-      <DependentUpon>adminCharts.aspx</DependentUpon>
+    <Compile Include="adminDeleteFeedback.aspx.designer.cs">
+      <DependentUpon>adminDeleteFeedback.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminDeleteProduct.aspx.cs">
       <DependentUpon>adminDeleteProduct.aspx</DependentUpon>
@@ -249,6 +252,13 @@
     <Compile Include="adminDeleteProduct.aspx.designer.cs">
       <DependentUpon>adminDeleteProduct.aspx</DependentUpon>
     </Compile>
+    <Compile Include="adminDeleteUser.aspx.cs">
+      <DependentUpon>adminDeleteUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminDeleteUser.aspx.designer.cs">
+      <DependentUpon>adminDeleteUser.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminEditProduct.aspx.cs">
       <DependentUpon>adminEditProduct.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -256,12 +266,12 @@
     <Compile Include="adminEditProduct.aspx.designer.cs">
       <DependentUpon>adminEditProduct.aspx</DependentUpon>
     </Compile>
-    <Compile Include="adminElements.aspx.cs">
-      <DependentUpon>adminElements.aspx</DependentUpon>
+    <Compile Include="adminEditUser.aspx.cs">
+      <DependentUpon>adminEditUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="adminElements.aspx.designer.cs">
-      <DependentUpon>adminElements.aspx</DependentUpon>
+    <Compile Include="adminEditUser.aspx.designer.cs">
+      <DependentUpon>adminEditUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminMenu.Master.cs">
       <DependentUpon>AdminMenu.Master</DependentUpon>
@@ -270,6 +280,13 @@
     <Compile Include="AdminMenu.Master.designer.cs">
       <DependentUpon>AdminMenu.Master</DependentUpon>
     </Compile>
+    <Compile Include="adminViewFeedback.aspx.cs">
+      <DependentUpon>adminViewFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminViewFeedback.aspx.designer.cs">
+      <DependentUpon>adminViewFeedback.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminViewProduct.aspx.cs">
       <DependentUpon>adminViewProduct.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -277,12 +294,19 @@
     <Compile Include="adminViewProduct.aspx.designer.cs">
       <DependentUpon>adminViewProduct.aspx</DependentUpon>
     </Compile>
-    <Compile Include="adminWidgets.aspx.cs">
-      <DependentUpon>adminWidgets.aspx</DependentUpon>
+    <Compile Include="adminViewSalesOrder.aspx.cs">
+      <DependentUpon>adminViewSalesOrder.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="adminWidgets.aspx.designer.cs">
-      <DependentUpon>adminWidgets.aspx</DependentUpon>
+    <Compile Include="adminViewSalesOrder.aspx.designer.cs">
+      <DependentUpon>adminViewSalesOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminViewUser.aspx.cs">
+      <DependentUpon>adminViewUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminViewUser.aspx.designer.cs">
+      <DependentUpon>adminViewUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="DatabaseConnection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

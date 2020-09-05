@@ -24,7 +24,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span></button>
-							<a class="navbar-brand" href="#"><span>it.next</span>Admin </a>
+							<a class="navbar-brand" href="adminViewProduct.aspx"><span>it.next</span>Admin </a>
 			</div>
 		</div><!-- /.container-fluid -->
 	</nav>
@@ -53,9 +53,9 @@
 					</a></li>
 				</ul>
 			</li>
-			<li><a href="adminCharts.aspx"><em class="fa fa-shopping-basket">&nbsp;</em>Manage Sales Order</a></li>
-			<li><a href="adminWidgets.aspx"><em class="fa fa-users">&nbsp;</em>Manage Customer</a></li>
-			<li><a href="adminElements.aspx"><em class="fa fa-envelope-open">&nbsp;</em>Manage Feedback</a></li>
+			<li><a href="adminViewSalesOrder.aspx"><em class="fa fa-shopping-basket">&nbsp;</em>Manage Sales Order</a></li>
+			<li><a href="adminViewUser.aspx"><em class="fa fa-users">&nbsp;</em>Manage Customer</a></li>
+			<li><a href="adminViewFeedback.aspx"><em class="fa fa-envelope-open">&nbsp;</em>Manage Feedback</a></li>
             <li><asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><em class="fa fa-power-off">&nbsp;</em>Logout</asp:LinkButton></li>
 		</ul>
 	</div><!--/.sidebar-->

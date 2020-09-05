@@ -11,7 +11,7 @@ namespace VS_FinalAssignment
 {
 
 
-    public partial class adminCharts
+    public partial class adminDeleteUser
     {
     }
 }
