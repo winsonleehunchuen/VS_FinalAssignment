@@ -152,7 +152,7 @@
                           <div class="menu_side">
                             <div id="navbar_menu">
                               <ul class="first-ul">
-                                <li> <a class="active" href="UserHome.aspx">Home</a> </li>
+                                <li> <a href="UserHome.aspx">Home</a> </li>
                                 <li> <a href="UserAbout.aspx">About Us</a> </li>
                                 <li> <a href="UserShop.aspx">Shop</a>
                                   <ul>
@@ -164,11 +164,7 @@
                                 </li>
                                 <li> <a href="UserContact.aspx">Contact Us</a>
                                 </li>
-                              </ul>
-                            </div>
-                            <div class="search_icon">
-                              <ul>
-                                <li><a href="#" data-toggle="modal" data-target="#search_bar"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                   <li><a href="UserUpdateProfile.aspx" class="fa fa-user">Update Profile</a></li>
                               </ul>
                             </div>
                           </div>
@@ -357,7 +353,7 @@
                         <p>Kuala Lumpur City Centre, Kuala Lumpur,<br> 
                             Federal Territory of Kuala Lumpur<br>
                           <span style="font-size:18px;"><a href="tel:+9876543210">+60123456789</a></span><br>
-                           <span style="font-size:18px;"><a href="">itnext@gmail.com</a></span>
+                           <span style="font-size:18px;"><a href="mailto:info@yourdomain.com">itnext@gmail.com</a></span>
                         </p>
                       </div>
                     </div>

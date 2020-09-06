@@ -30,9 +30,9 @@ namespace VS_FinalAssignment
             foreach(DataRow dr in dt.Rows) 
             {
                 table.Append("<tr>"); 
-                table.Append("<td>" + i + "</td><td>" + dr[1].ToString() + "</td><td>" + dr[2].ToString() + "</td><td>" + dr[3].ToString() + "</td><td>" + "<img src = 'upload/" + dr[4] + "' width = 100px height = 100px >" + "</td><td>" + dr[5].ToString() + "</td>");
-                table.Append("<td>" + "<a href = 'adminEditProduct.aspx?id=" + dr[0] + "'><img src = 'images/edit.png' width = 20px height = 20px ></a>" + "</td>");
-                table.Append("<td>" + "<a href = 'adminDeleteProduct.aspx?id="+dr[0]+"'><img src = 'images/delete.png' width = 22px height = 22px ></a>" + "</td>");
+                table.Append("<td width=30>" + i + "</td><td width=120>" + dr[1].ToString() + "</td><td width=100>" + "RM" + dr[2].ToString() + "</td><td width=350>" + dr[3].ToString() + "</td><td width=100>" + "<img src = 'upload/" + dr[4] + "' width = 100px height = 100px >" + "</td><td width=80>" + dr[5].ToString() + "</td>");
+                table.Append("<td width=50>" + "<a href = 'adminEditProduct.aspx?id=" + dr[0] + "'><img src = 'images/edit.png' width = 20px height = 20px ></a>" + "</td>");
+                table.Append("<td width=50>" + "<a href = 'adminDeleteProduct.aspx?id="+dr[0]+"'><img src = 'images/delete.png' width = 22px height = 22px ></a>" + "</td>");
                 table.Append("</tr>");
                 i++;
             }

@@ -228,6 +228,7 @@
     <Content Include="UserShopCart.aspx" />
     <Content Include="UserShopCheckout.aspx" />
     <Content Include="UserShopDetail.aspx" />
+    <Content Include="UserUpdateProfile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -386,6 +387,13 @@
     </Compile>
     <Compile Include="UserShopDetail.aspx.designer.cs">
       <DependentUpon>UserShopDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserUpdateProfile.aspx.cs">
+      <DependentUpon>UserUpdateProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserUpdateProfile.aspx.designer.cs">
+      <DependentUpon>UserUpdateProfile.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
