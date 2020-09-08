@@ -22,7 +22,7 @@ namespace VS_FinalAssignment
             {
                 dbcon = new DatabaseConnection();
                 string id = DateTime.Now.ToString("MMdd");
-                DataTable dt = dbcon.getDataSQL("select * from cart;");
+                DataTable dt = dbcon.getDataSQL("select * from cart inner join product on cart.id = product.id where login_id = '" + Session["userN"] + "'");
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
                     string query = "insert into history (login_id,order_id,id,quantity,status,created_at) values('" + Session["userN"] + "','" + id + "','" + dt.Rows[i]["id"] + "','" + dt.Rows[i]["quantity"] + "','Payment','" + DateTime.Now.ToString("dd/MM/yyyy hh:mm tt") + "');";

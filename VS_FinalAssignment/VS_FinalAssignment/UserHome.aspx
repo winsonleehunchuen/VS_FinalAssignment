@@ -394,7 +394,7 @@
           <div class="product_img"> <img class="img-responsive" src="images/it_service/1.jpg" alt=""> </div>
           <div class="product_detail_btm">
             <div class="center">
-              <h4><a href="UserShopDetail.aspx">USB Flash Drive Pendrive</a></h4>
+              <h4><a href="UserShopCart.aspx">USB Flash Drive Pendrive</a></h4>
             </div>
             <div class="starratin">
               <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
@@ -410,7 +410,7 @@
           <div class="product_img"> <img class="img-responsive" src="images/it_service/2.jpg" alt=""> </div>
           <div class="product_detail_btm">
             <div class="center">
-              <h4><a href="UserShopDetail.aspx">Apple Magic Keyboard</a></h4>
+              <h4><a href="UserShopCart.aspx">Apple Magic Keyboard</a></h4>
             </div>
             <div class="starratin">
               <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
@@ -426,7 +426,7 @@
           <div class="product_img"> <img class="img-responsive" src="images/it_service/4.jpg" alt=""> </div>
           <div class="product_detail_btm">
             <div class="center">
-              <h4><a href="UserShopDetail.aspx">Mini Radio Bluetooth Speaker</a></h4>
+              <h4><a href="UserShopCart.aspx">Mini Radio Bluetooth Speaker</a></h4>
             </div>
             <div class="starratin">
               <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
@@ -442,7 +442,7 @@
           <div class="product_img"> <img class="img-responsive" src="images/it_service/8.jpg" alt=""> </div>
           <div class="product_detail_btm">
             <div class="center">
-              <h4><a href="UserShopDetail.aspx">Apple Magic Mouse 2</a></h4>
+              <h4><a href="UserShopCart.aspx">Apple Magic Mouse 2</a></h4>
             </div>
             <div class="starratin">
               <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
