@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserMenu.Master" AutoEventWireup="true" CodeBehind="UserShopCart.aspx.cs" Inherits="VS_FinalAssignment.UserShopCart" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserMenu.Master" AutoEventWireup="true" CodeBehind="UserShopViewHistory.aspx.cs" Inherits="VS_FinalAssignment.UserShopViewHistory" %>
 <asp:Content ID="Content3" ContentPlaceHolderID="Content" runat="server">
     <!-- inner page banner -->
         <div id="inner_banner" class="section inner_banner_section">
@@ -8,10 +8,10 @@
                 <div class="full">
                   <div class="title-holder">
                     <div class="title-holder-cell text-left">
-                      <h1 class="page-title">Shopping</h1>
+                      <h1 class="page-title">Shopping View History</h1>
                       <ol class="breadcrumb">
                         <li><a href="UserHome.aspx">Home</a></li>
-                        <li class="active">Shopping </li>
+                        <li class="active">Shopping View History</li>
                       </ol>
                     </div>
                   </div>
@@ -30,11 +30,14 @@
                   <table class="table" >
                     <thead>
                       <tr>
-                        <th>Product</th>
-                        <th>Name</th>
-                        <th>Quantity</th>
-                        <th class="text-center">Price</th>
-                        <th class="text-center">Description</th>
+                        <th>Order ID</th>
+                        <th>Product Name</th>
+                        <th>Product Image</th>
+                        <th class="text-center">Product Price</th>
+                        <th class="text-center">Product Quantity</th>
+                        <th class="text-center">Total Product Price</th>
+                        <th class="text-center">Status</th>
+                        <th class="text-center">Date and TIme</th>
                         <th> </th>
                       </tr>
                     </thead>
@@ -42,21 +45,15 @@
                         <asp:Repeater ID="Repeater1" OnItemCommand="Repeater1_ItemCommand" runat="server">
                         <ItemTemplate>
                         <tr>
+                        <td width="30%"><p class="price_table"><%# Eval("order_id")%></p>
+                        <td width="40%"><p class="price_table"><%# Eval("name")%></p>
                         <td width="70%"><div class="media"> <a class="thumbnail pull-left" href="#"> <img class="media-object" src="upload/<%# Eval("image")%>" width="50%" height="50%" alt="#"></a>
                         <div class="media-body"></td>
-                        <td width="40%"><h4 class="media-heading"><%# Eval("name")%></h4>
-                        <span>Status: </span><span class="text-success">In Stock</span></td>
-                        <td width="30%" style="text-align: center"><br />
-                        <asp:DropDownList ID="DropDownList1" class="form-control" runat="server">
-                            <asp:ListItem Value="1">1</asp:ListItem>
-                            <asp:ListItem Value="2">2</asp:ListItem>                                     
-                            <asp:ListItem Value="3">3</asp:ListItem>
-                            <asp:ListItem Value="4">4</asp:ListItem>
-                        </asp:DropDownList>
-                        </td>
                         <td width="50%"><p class="price_table">RM&nbsp;<%# Eval("price")%></p></td>
-                        <td width="100%"><p class="price_table text-center "><%# Eval("description")%></p></td>
-                        <td width="100%""><asp:LinkButton ID="LinkButton1" runat="server" CommandArgument='<%#Eval("id") %>' CommandName="AddToCart" class="bt_main" >Add&nbsp;to&nbsp;Cart</asp:LinkButton></td>
+                        <td width="50%"><p class="price_table text-center">&nbsp;<%# Eval("quantity")%></p></td>
+                        <td width="50%"><p class="price_table">RM&nbsp;<%# Eval("total")%></p></td>
+                        <td width="50%"><p class="price_table">&nbsp;<%# Eval("status")%></p></td>
+                        <td width="50%"><p class="price_table">&nbsp;<%# Eval("created_at")%></p></td>
                         </tr>
                         </ItemTemplate>
                         </asp:Repeater>
@@ -68,5 +65,4 @@
         </div>
         <!-- section -->
 </asp:Content>
-
 

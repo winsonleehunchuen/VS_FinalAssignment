@@ -400,7 +400,7 @@
               <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
             </div>
             <div class="product_price">
-              <p><span class="old_price">RM 50.00</span> – <span class="new_price">RM 40.00</span></p>
+              <p><span class="old_price">RM 50</span> – <span class="new_price">RM 40</span></p>
             </div>
           </div>
         </div>
@@ -416,7 +416,7 @@
               <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
             </div>
             <div class="product_price">
-              <p><span class="old_price">RM 400.00</span> – <span class="new_price">RM 379.00</span></p>
+              <p><span class="old_price">RM 400</span> – <span class="new_price">RM 379</span></p>
             </div>
           </div>
         </div>
@@ -432,7 +432,7 @@
               <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
             </div>
             <div class="product_price">
-              <p><span class="old_price">RM 450.00</span> – <span class="new_price">RM 400.00</span></p>
+              <p><span class="old_price">RM 450</span> – <span class="new_price">RM 400</span></p>
             </div>
           </div>
         </div>
@@ -448,7 +448,7 @@
               <div class="center"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </div>
             </div>
             <div class="product_price">
-              <p><span class="old_price">RM 200.00</span> – <span class="new_price">RM 150.00</span></p>
+              <p><span class="old_price">RM 200</span> – <span class="new_price">RM 150</span></p>
             </div>
           </div>
         </div>

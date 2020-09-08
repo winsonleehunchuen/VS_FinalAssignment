@@ -154,12 +154,11 @@
                               <ul class="first-ul">
                                 <li> <a href="UserHome.aspx">Home</a> </li>
                                 <li> <a href="UserAbout.aspx">About Us</a> </li>
-                                <li> <a href="UserShop.aspx">Shop</a>
+                                <li> <a href="UserShopCart.aspx">Shop</a>
                                   <ul>
-                                    <li><a href="UserShop.aspx">Shop List</a></li>
-                                    <li><a href="UserShopDetail.aspx">Shop Detail</a></li>
-                                    <li><a href="UserShopCart.aspx">Shopping Cart</a></li>
-                                    <li><a href="UserShopCheckout.aspx">Checkout</a></li>
+                                    <li><a href="UserShopCart.aspx">Shop List</a></li>
+                                    <li><a href="UserShopListPayment.aspx">Shop Payment</a></li>
+                                    <li><a href="UserShopViewHistory.aspx">Shopping View History</a></li>
                                   </ul>
                                 </li>
                                 <li> <a href="UserContact.aspx">Contact Us</a>

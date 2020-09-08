@@ -32,7 +32,7 @@ namespace VS_FinalAssignment
                 else
                 {
                     Session["userN"] = username;
-                    Response.Write("<script>alert('Login Successfully.');window.location = 'UserShop.aspx';</script>");
+                    Response.Write("<script>alert('Login Successfully.');window.location = 'UserShopCart.aspx';</script>");
                 }
             }
             else

@@ -226,8 +226,9 @@
     <Content Include="UserRegister.aspx" />
     <Content Include="UserShop.aspx" />
     <Content Include="UserShopCart.aspx" />
-    <Content Include="UserShopCheckout.aspx" />
-    <Content Include="UserShopDetail.aspx" />
+    <Content Include="UserShopListPayment.aspx" />
+    <Content Include="UserShopPayment.aspx" />
+    <Content Include="UserShopViewHistory.aspx" />
     <Content Include="UserUpdateProfile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -374,19 +375,26 @@
     <Compile Include="UserShopCart.aspx.designer.cs">
       <DependentUpon>UserShopCart.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UserShopCheckout.aspx.cs">
-      <DependentUpon>UserShopCheckout.aspx</DependentUpon>
+    <Compile Include="UserShopListPayment.aspx.cs">
+      <DependentUpon>UserShopListPayment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserShopCheckout.aspx.designer.cs">
-      <DependentUpon>UserShopCheckout.aspx</DependentUpon>
+    <Compile Include="UserShopListPayment.aspx.designer.cs">
+      <DependentUpon>UserShopListPayment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UserShopDetail.aspx.cs">
-      <DependentUpon>UserShopDetail.aspx</DependentUpon>
+    <Compile Include="UserShopPayment.aspx.cs">
+      <DependentUpon>UserShopPayment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserShopDetail.aspx.designer.cs">
-      <DependentUpon>UserShopDetail.aspx</DependentUpon>
+    <Compile Include="UserShopPayment.aspx.designer.cs">
+      <DependentUpon>UserShopPayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserShopViewHistory.aspx.cs">
+      <DependentUpon>UserShopViewHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserShopViewHistory.aspx.designer.cs">
+      <DependentUpon>UserShopViewHistory.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserUpdateProfile.aspx.cs">
       <DependentUpon>UserUpdateProfile.aspx</DependentUpon>
