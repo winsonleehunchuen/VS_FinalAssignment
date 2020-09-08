@@ -95,6 +95,7 @@
     <Content Include="adminCss\js\respond.min.js" />
     <Content Include="adminDeleteFeedback.aspx" />
     <Content Include="adminDeleteProduct.aspx" />
+    <Content Include="adminDeleteSalesOrder.aspx" />
     <Content Include="adminDeleteUser.aspx" />
     <Content Include="adminEditProduct.aspx" />
     <Content Include="adminEditUser.aspx" />
@@ -253,6 +254,13 @@
     </Compile>
     <Compile Include="adminDeleteProduct.aspx.designer.cs">
       <DependentUpon>adminDeleteProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminDeleteSalesOrder.aspx.cs">
+      <DependentUpon>adminDeleteSalesOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminDeleteSalesOrder.aspx.designer.cs">
+      <DependentUpon>adminDeleteSalesOrder.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminDeleteUser.aspx.cs">
       <DependentUpon>adminDeleteUser.aspx</DependentUpon>
