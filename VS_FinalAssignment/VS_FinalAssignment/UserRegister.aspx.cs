@@ -41,7 +41,7 @@ namespace VS_FinalAssignment
                         string query = "insert into users(fullname, email, username, password, user_type, created_at) values ('" + fullNameTxt.Text + "','" + EmailTxt.Text + "','" + UsernameTxt.Text + "','" + PasswordTxt.Text + "','user','" + DateTime.Now.ToString("dd/MM/yyyy hh:mm tt") + "');";
                         dbcon.executeSQL(query);
                         Session["userN"] = UsernameTxt.Text;
-                        Response.Write("<script>alert('Register Successfully.');window.location = 'UserShop.aspx';</script>");
+                        Response.Write("<script>alert('Register Successfully.');window.location = 'UserShopCart.aspx';</script>");
                     }
                     catch (Exception ex)
                     {
