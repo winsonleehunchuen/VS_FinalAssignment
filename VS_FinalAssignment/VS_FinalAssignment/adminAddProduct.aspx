@@ -7,13 +7,13 @@
 				<li><a href="adminViewProduct.aspx">
 					<em class="fa fa-home"></em>
 				</a></li>
-				<li class="active">Manage Product</li>
+				<li class="active">Add Product</li>
 			</ol>
 		</div><!--/.row-->
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Manage Product</h1>
+				<h1 class="page-header">Add Product</h1>
 			</div>
 		</div><!--/.row-->	
 		

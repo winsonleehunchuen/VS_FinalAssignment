@@ -339,10 +339,9 @@
                           <h2>Shop</h2>
                         </div>
                         <ul class="footer-menu">
-                          <li><a href="UserShop.aspx"><i class="fa fa-angle-right"></i>Shop</a></li>
-                          <li><a href="UserShopCart.aspx"><i class="fa fa-angle-right"></i>Cart</a></li>
-                          <li><a href="UserShopCheckout.aspx"><i class="fa fa-angle-right"></i>Check Out</a></li>
-                          <li><a href="UserShopDetail.aspx"><i class="fa fa-angle-right"></i>Shop Detail</a></li>
+                          <li><a href="UserShopCart.aspx"><i class="fa fa-angle-right"></i>Shop</a></li>
+                          <li><a href="UserShopListPayment.aspx"><i class="fa fa-angle-right"></i>Shop List Payment</a></li>
+                          <li><a href="UserShopViewHistory.aspx"><i class="fa fa-angle-right"></i>Shop View History</a></li>
                         </ul>
                       </div>
                       <div class="col-md-6">

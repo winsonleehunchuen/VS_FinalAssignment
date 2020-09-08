@@ -223,9 +223,7 @@
     <Content Include="UserContact.aspx" />
     <Content Include="UserHome.aspx" />
     <Content Include="UserLogin.aspx" />
-    <Content Include="UserPagesError.aspx" />
     <Content Include="UserRegister.aspx" />
-    <Content Include="UserShop.aspx" />
     <Content Include="UserShopCart.aspx" />
     <Content Include="UserShopListPayment.aspx" />
     <Content Include="UserShopPayment.aspx" />
@@ -355,26 +353,12 @@
     <Compile Include="UserMenu.Master.designer.cs">
       <DependentUpon>UserMenu.Master</DependentUpon>
     </Compile>
-    <Compile Include="UserPagesError.aspx.cs">
-      <DependentUpon>UserPagesError.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UserPagesError.aspx.designer.cs">
-      <DependentUpon>UserPagesError.aspx</DependentUpon>
-    </Compile>
     <Compile Include="UserRegister.aspx.cs">
       <DependentUpon>UserRegister.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UserRegister.aspx.designer.cs">
       <DependentUpon>UserRegister.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="UserShop.aspx.cs">
-      <DependentUpon>UserShop.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UserShop.aspx.designer.cs">
-      <DependentUpon>UserShop.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserShopCart.aspx.cs">
       <DependentUpon>UserShopCart.aspx</DependentUpon>
